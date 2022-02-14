@@ -1,0 +1,32 @@
+{"intents": [
+    {"tag": "greeting",
+        "patterns": ["Hi", "Hey there", "How are you", "Yo", "Hello", "???", "Whats going on", "Whats up", "Hows it going", "Good morning"],
+        "responses": ["Hello!", "Nice to meet you!", "Hello there, what do you need help with?", "I'm great, how may I be of service?", "Hey there friend!"],
+        "context_set": ""
+    },
+    {"tag": "goodbye",
+        "patterns": ["Peace out", "See ya later", "Goodbye", "I'm leaving", "Have a good one", "Bye", "Thanks for the help!"],
+        "responses": ["See you later friend!", "Hate to watch you leave :(", "Goodbye, have a good rest of your day!", "Glad to be of service!"],
+        "context_set": ""
+    },
+    {"tag": "introduction",
+        "patterns": ["What is Vapur?", "What is it?", "What website am I on", "Where am I"],
+        "responses": ["Vapur is based on the idea of fantasy sports leagues, where high-risk investors can play the market without risking their life savings. ", 
+                    "Vapur is a platform where users can enter games and pick their lineup of stocks and cryptos to compete with other investors like them.",
+                    "Vapur will be the largest fantasy financial trading platform in the world, disrupting the market with cryptocurrency wagers"],
+        "context_set": ""
+    },
+    {"tag": "overview",
+        "patterns": ["When was Vapur founded", "Who founded Vapur", "When will Vapur launch"],
+        "responses": ["Vapur was founded in 2021!", "Vapur was founded by Co-founder Caleb Northcott and Co-founder Matthew Klimek in 2021!",
+                     "Vapur will launch their beta soon, join the waitlist to hear the news first!"],
+        "context_set": ""
+    },
+    {"tag": "team",
+        "patterns": ["Who is Caleb Northcott?", "Who is Matthew Klimek?"],
+        "responses": ["Caleb Northcott graduated from Eckerd College with a Bachelor of Science in Computer Science and Economics. Blockchain technology has always been an interest in his life. Since 2017, Caleb has actively traded both cryptocurrencies and U.S equities, where the inspiration for Vapur was born. ", 
+                        "Matthew Klimek is a recent graduate from Eckerd College in 2020, where he obtained a BS in Computer Science. Matthew began his official digital exploration back in 2015 when he co-authored a book about digital marketing with Jay Berkowitz. His attention shifted towards investing in stocks and cryptocurrency in early 2018, and blockchain technology soon after. "],
+        "context_set": ""
+    }
+]
+}
